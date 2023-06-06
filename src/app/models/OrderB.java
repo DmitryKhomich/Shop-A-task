@@ -10,7 +10,7 @@ public class OrderB extends Order {
         this.delivery = delivery;
     }
 
-    public double getOrderCost(double quantity, double price) {
+    public double getOrderCost(int quantity, double price) {
         return  quantity * price + delivery;
     }
 }
